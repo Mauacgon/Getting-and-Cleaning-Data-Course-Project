@@ -1,3 +1,5 @@
+# GETTING AND CLEANING DATA - COURSE PROJECT
+
 ***
 ## This Github Repo holds in the following files:
 
