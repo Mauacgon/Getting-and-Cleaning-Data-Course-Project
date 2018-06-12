@@ -45,7 +45,7 @@ testdata$subject <- testsbj
 traindata$subject <- trainsbj
 trainandtest <- rbind(testdata, traindata)
 
-              #Keep only the variables which figures out a mean or a standard deviation. Discard the others.
+              #Keep only the variables which figure out a mean or a standard deviation. Discard the others.
 
 selectnumbersvector <- grep("[ms][et][ad]", names(trainandtest), value = TRUE)
 trainandtestmeansd <- trainandtest[,c(selectnumbersvector, "activity", "subject"), with = FALSE]
